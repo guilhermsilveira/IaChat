@@ -1,0 +1,11 @@
+spring:
+    application:
+      name: Dev-Week-Spring-Boot
+    datasource:
+      url: jdbc:h2:mem:com.example.Dev Week - Spring Boot
+      driver-class-name: org.h2.Driver
+      username: sa
+      password: ''
+    h2:
+      console:
+        enabled: true
